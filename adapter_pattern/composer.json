@@ -1,0 +1,21 @@
+{
+    "name": "sidi/use_design_pattern",
+    "description": "memory refresh using pattern designs",
+    "authors": [
+        {
+            "name": "rimoi",
+            "email": "sidi.khalifa@live.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "require": {
+        "doctrine/cache": "^1.10"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.0"
+    }
+}
