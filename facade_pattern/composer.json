@@ -1,0 +1,16 @@
+{
+    "name": "sidi/facade_pattern",
+    "description": "facade pattern",
+    "authors": [
+        {
+            "name": "sidikhalifa",
+            "email": "sidi.khalifa@live.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}
