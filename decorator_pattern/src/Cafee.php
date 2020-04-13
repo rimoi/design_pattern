@@ -2,10 +2,10 @@
 
 namespace App;
 
-class Expresso implements CafeeInterface
+class Cafee implements CafeeInterface
 {
     public function getCost(): float
     {
-        return 2.5;
+        return 0.5;
     }
 }

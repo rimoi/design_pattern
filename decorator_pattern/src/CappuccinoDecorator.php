@@ -2,7 +2,7 @@
 
 namespace App;
 
-class CaffeeDecorator implements CafeeInterface
+final class CappuccinoDecorator implements CafeeInterface
 {
     private $cafee;
 
@@ -13,6 +13,6 @@ class CaffeeDecorator implements CafeeInterface
 
     public function getCost(): float
     {
-        return $this->cafee->getCost();
+        return $this->cafee->getCost() + 2;
     }
 }
